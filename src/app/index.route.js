@@ -2,19 +2,34 @@
   'use strict';
 
   angular
-    .module('faceFashion')
-    .config(routeConfig);
+    .module('playquizzy')
+    .config(routerConfig);
 
-  function routeConfig($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'app/main/main.html',
+  /** @ngInject */
+  function routerConfig($stateProvider, $urlRouterProvider) {
+    $stateProvider
+      .state('home', {
+        url: '/',
+        templateUrl: 'app/views/main/main.html',
         controller: 'MainController',
         controllerAs: 'main'
       })
-      .otherwise({
-        redirectTo: '/'
+
+      .state('question', {
+        url: '/question/:id',
+        templateUrl: 'app/views/question/question.html',
+        controller: 'QuestionController',
+        controllerAs: 'question'
+      })
+
+      .state('result', {
+        url: '/result',
+        templateUrl: 'app/views/result/result.html',
+        controller: 'ResultController',
+        controllerAs: 'result'
       });
+
+    $urlRouterProvider.otherwise('/');
   }
 
 })();

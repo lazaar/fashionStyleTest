@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('faceFashion', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ngRoute', 'toastr']);
+    .module('playquizzy', ['ngAnimate', 'ui.router', 'toastr']);
 
 })();

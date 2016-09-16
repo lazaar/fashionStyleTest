@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('faceFashion')
+    .module('playquizzy')
     .config(config);
 
   /** @ngInject */
