@@ -6,12 +6,13 @@
     .controller('ResultController', ResultController);
 
   /** @ngInject */
-  function ResultController(responses, $timeout, questionsData, resultsData, $state) {
+  function ResultController(responses, $timeout, questionsData, resultsData, $state,productsData) {
     var vm = this;
     var responseFlags;
     var results;
 
     function calculateResult(){
+
       responses.getResponses().forEach(function(ResponseIndex, QuestionIndex){
 
         var response = _.result(questionsData,'questions['+QuestionIndex+'].responses['+ResponseIndex+']',{});
@@ -25,11 +26,16 @@
       vm.image = results[userResultIndex].image;
     }
 
+vm.more=function(){
+          $state.go('product');
+
+}
     function init(){
       if(responses.getResponses().length === 0){
         $state.go('home');
       }
       else{
+        vm.products=productsData.products;
         results = resultsData.results;
         responseFlags = new Array(results.length);
         _.fill(responseFlags, 0);

@@ -21,13 +21,21 @@
         controller: 'QuestionController',
         controllerAs: 'question'
       })
-
+   
       .state('result', {
         url: '/result',
         templateUrl: 'app/views/result/result.html',
         controller: 'ResultController',
         controllerAs: 'result'
-      });
+      })
+      .state('product', {
+        url: '/product',
+        templateUrl: 'app/views/product/product.html',
+        controller: 'ProductController',
+        controllerAs: 'product'
+      })
+
+      ;
 
     $urlRouterProvider.otherwise('/');
   }

@@ -14,7 +14,27 @@
           {{result.description}}
         </p>
       </div>
+</div>
+      <div  ng-if="!result.isLoading" >
+    <h2>Your result</h2>
+
+<div class="row" >
+  <div class="col-xs-6 col-sm-4 col-md-3" ng-repeat="products in result.products" ng-if="$index<4">
+    <div class="thumbnail">
+      <img ng-src="{{products.image}}"  class="productImage"  >
+      <div  >
+        <h4>{{products.name}}</h4>
+        <p>                    <button type="button " class="btn btn-success ">
+<i class="Quiz-icon icon-shopping"></i>
+        Buy now</button>
+</p>
+      </div>
     </div>
+  </div>
+
+</div><div><button type="button" class="btn btn-default" ng-click="result.more()">More products</button>
+</div>
+
       <small>© 2016, Play Quizzy</small>
     </p>
   </div>

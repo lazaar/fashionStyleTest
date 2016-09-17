@@ -27,15 +27,29 @@ small{
 	max-width: 50px;
 	margin: 20px 0;
 }
-.icon-back{
+
+.Quiz-icon{
 	display: inline-block;
     width: 15px;
     height: 17px;
     margin-right: 5px;
-    background-image: url("..//assets/images/back.png");
+    background-image: url("..//assets/images/shopping-card.png");
     background-size: 100%;
     vertical-align: middle;
     background-repeat: no-repeat;
+    &.icon-back {
+        background-image: url("..//assets/images/back.png");
+
+    }
+      &.icon-shopping {
+        background-image: url("..//assets/images/shopping-card.png");
+
+    }
+      &.icon-showMore {
+        background-image: url("..//assets/images/showMore.png");
+        height:10px ! important;
+
+    }
 }
 .response-item p{
 	font-weight: 400;
@@ -82,7 +96,22 @@ small{
 		background-color:#34495e;
 	}
 }
+
+@media (max-width: 767px)  and  (min-width: 487px) { 
+.productImage{
+		max-width: 57% !important;
+	}
+
+ }
+@media  (min-width: 1199px) { 
+.productImage{
+		max-width: 83% !important;
+	}
+
+ }
+
 @media  (max-width: 768px){
+
 	.myImage{
 		max-width: 100%;
 	}
