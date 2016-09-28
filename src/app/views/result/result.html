@@ -9,10 +9,13 @@
     <div class="row" ng-if="!result.isLoading">
       <img ng-src="{{result.image}}" class="myImage col-xs-12 col-sm-6">
       <div class="col-xs-12 col-sm-6">
+        <img ng-src="{{user.picture.data.url}}">
         <h3>{{result.name}}</h3>
         <p>
           {{result.description}}
         </p>
+        <div><button type="button" class="btn btn-md btn-primary" ng-click="result.share()">Share</button></div>
+        <button type="button" class="btn btn-md btn-default" ng-click="result.inviteFriends()">Invite your Friends</button>
       </div>
 </div>
       <div  ng-if="!result.isLoading" >
@@ -24,10 +27,10 @@
       <img ng-src="{{products.image}}"  class="productImage"  >
       <div  >
         <h4>{{products.name}}</h4>
-        <p>                    <button type="button " class="btn btn-success ">
-<i class="Quiz-icon icon-shopping"></i>
-        Buy now</button>
-</p>
+        <p>
+        <button type="button " class="btn btn-success "><i class="Quiz-icon icon-shopping"></i> Buy now</button>
+        <button type="button" class="btn btn-md btn-default" ng-click="result.inviteFriends()">Share with Friends</button>
+        </p>
       </div>
     </div>
   </div>

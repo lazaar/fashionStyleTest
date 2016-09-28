@@ -7,10 +7,24 @@ body{
     background-position: center;
     background-color:#f3f5f6;
 }
+.btn-primary{
+	margin-bottom: 10px;
+}
 .myImage{
 	max-width: 80%;
 }
-.container .jumbotron{
+.thumbnail{
+	height:inherit;
+	.btn-default{
+		margin-top: 10px;
+    	font-size: 12px;
+	}
+	.btn{
+		max-width: 100%;
+    	overflow: hidden;
+	}
+}
+.container .jumbotron, .container-fluid .jumbotron{
 	background-color: transparent;
 	padding-top: 20px;
 	h1, h2{
@@ -96,7 +110,6 @@ small{
 		background-color:#34495e;
 	}
 }
-
 @media (max-width: 767px)  and  (min-width: 487px) { 
 .productImage{
 		max-width: 57% !important;

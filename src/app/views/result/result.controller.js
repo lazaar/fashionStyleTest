@@ -6,7 +6,7 @@
     .controller('ResultController', ResultController);
 
   /** @ngInject */
-  function ResultController(responses, $timeout, questionsData, resultsData, $state,productsData) {
+  function ResultController(responses, facebookServices, $timeout, questionsData, resultsData, $state,productsData) {
     var vm = this;
     var responseFlags;
     var results;
@@ -30,6 +30,14 @@ vm.more=function(){
           $state.go('product');
 
 }
+
+    function share(){
+      facebookServices.shareFacebook("http://facebook.com", "name", "caption", "description");
+    }
+    function inviteFriends(){
+      facebookServices.sendToFriend("http://facebook.com");
+    }
+
     function init(){
       if(responses.getResponses().length === 0){
         $state.go('home');
@@ -44,6 +52,8 @@ vm.more=function(){
         $timeout(function() {
           vm.isLoading = false;
         }, 1500);
+        vm.share = share;
+        vm.inviteFriends = inviteFriends;
       }
     }
     init();

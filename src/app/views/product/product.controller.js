@@ -6,7 +6,7 @@
     .controller('ProductController', ProductController);
 
   /** @ngInject */
-  function ProductController(productsData) {
+  function ProductController(productsData, facebookServices) {
     var vm = this;
 
 
@@ -26,12 +26,15 @@
     pagesShown = pagesShown + 1;       
     }; 
 
+    function inviteFriends(){
+      facebookServices.sendToFriend("http://facebook.com");
+    }
  
 
     function init(){
         vm.products=productsData.products;
-    
-      
+
+        vm.inviteFriends = inviteFriends;
     }
     init();
 

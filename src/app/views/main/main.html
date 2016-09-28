@@ -6,13 +6,19 @@
     <p class="lead">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut lorem scelerisque, semper ante nec, tempus odio. Aenean sed imperdiet lorem. Phasellus velit diam, molestie at nibh quis, molestie tincidunt dui. 
     </p>
+    <div class="infoUser">
+      <img ng-src="{{user.picture.data.url}}">
+      <p class="name">{{user.name}}</p>
+    </div>
     <p class="animated infinite" ng-class="main.classAnimation">
       <button type="button" class="btn btn-lg btn-success" ng-click="main.startQuiz()">Start Quiz</button>
-      <fb:login-button show-faces="true" max-rows="1" size="large"></fb:login-button>
     </p>
+    <button type="button" class="btn btn-md btn-default" ng-click="main.share()">Share</button>
+    <button type="button" class="btn btn-md btn-default" ng-click="main.inviteFriends()">Invite a Friends</button>
     <p>
       <small>© 2016, Play Quizzy</small>
     </p>
   </div>
+
 
 </div>

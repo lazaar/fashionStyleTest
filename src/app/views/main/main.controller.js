@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, toastr, $state) {
+  function MainController($timeout, toastr, $state, $rootScope, facebookServices) {
     var vm = this;
 
     function activateAnimation() {
@@ -17,12 +17,33 @@
     }
 
     function startQuiz() {
-      $state.go("question", {id:0});
+      if(!_.isEmpty($rootScope.user)){
+        $state.go("question", {id:0});
+      }
+      else{
+        FB.login(function(response) {
+            if (response.authResponse) {
+              $state.go("question", {id:0});
+            } 
+        }, {
+            scope: 'public_profile, email,user_birthday'
+        });
+      }
+    }
+
+    function share(){
+      facebookServices.shareFacebook("http://facebook.com", "name", "caption", "description");
+    }
+
+    function inviteFriends(){
+      facebookServices.sendToFriend("http://facebook.com");
     }
 
     function init(){
       activateAnimation();
       vm.startQuiz = startQuiz;
+      vm.share = share;
+      vm.inviteFriends = inviteFriends;
     }
     init();
 
