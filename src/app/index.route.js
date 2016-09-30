@@ -29,7 +29,7 @@
         controllerAs: 'result'
       })
       .state('product', {
-        url: '/product',
+        url: '/product/:id',
         templateUrl: 'app/views/product/product.html',
         controller: 'ProductController',
         controllerAs: 'product'

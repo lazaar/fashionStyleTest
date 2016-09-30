@@ -7,11 +7,18 @@ body{
     background-position: center;
     background-color:#f3f5f6;
 }
+p.description{
+	text-align: left;
+    font-size: 18px;
+}
 .btn-primary{
 	margin-bottom: 10px;
 }
 .myImage{
 	max-width: 80%;
+	&.result-image{
+		margin-top:30px;
+	}
 }
 .thumbnail{
 	height:inherit;
@@ -110,6 +117,14 @@ small{
 		background-color:#34495e;
 	}
 }
+.gender-choose{
+	img{
+		max-width: 200px;
+	}
+	.col-xs-6{
+		cursor: pointer;
+	}
+}
 @media (max-width: 767px)  and  (min-width: 487px) { 
 .productImage{
 		max-width: 57% !important;
@@ -130,5 +145,10 @@ small{
 	}
 	.jumbotron p{
 		font-size: 16px;
+	}
+	.gender-choose{
+		img{
+			max-width: 100%;
+		}
 	}
 }

@@ -6,7 +6,7 @@
     .controller('ProductController', ProductController);
 
   /** @ngInject */
-  function ProductController(productsData, facebookServices) {
+  function ProductController(productsData, facebookServices, $rootScope, $stateParams) {
     var vm = this;
 
 
@@ -23,7 +23,7 @@
     };
 
     vm.showMoreItems = function() {
-    pagesShown = pagesShown + 1;       
+      pagesShown = pagesShown + 1;       
     }; 
 
     function inviteFriends(){
@@ -32,7 +32,8 @@
  
 
     function init(){
-        vm.products=productsData.products;
+      var id = parseInt($stateParams.id);
+        vm.products=productsData[_.result($rootScope,'user.gender','male')][id];
 
         vm.inviteFriends = inviteFriends;
     }

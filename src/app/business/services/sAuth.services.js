@@ -41,7 +41,7 @@
 
           var _self = this;
 
-          FB.api('/me', {fields: 'name, email, birthday, picture'}, function(res) {
+          FB.api('/me', {fields: 'name, email, birthday, picture, gender'}, function(res) {
             $rootScope.$apply(function() {
               $rootScope.user = res;
               console.log($rootScope.user);
