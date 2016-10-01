@@ -8,19 +8,34 @@
          */
         male : [
             {
-                description: 'Male Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut lorem scelerisque ?',
-                image:'assets/images/quizzImage.png',
-                name:'Type Name'
+                description: "You have an attitude of maturity and confidence. You inspire others to trust and have confidence in their abilities. You avoid extremes in most things including your clothes and this leads you to prefer classic styled garments rather than anything highly fashionable. For business wear you desire clothes that project authority, maturity, respectability and credibility.",
+                image:'assets/images/classicm.png',
+                name:'Classic Clothing Personality'
             }, 
             {
-                description: 'Male Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut lorem scelerisque ?',
-                image:'assets/images/quizzImage.png',
-                name:'Type Name 2'
+                description: 'Romantic men are charming and charismatic. Your overall image is one of relaxed gentleness and a caring, sensitive nature. You are adored by women for the genuine respect and affection they show for them. Romantic men feel most at home in clothes that are made from soft and luxurious fabrics and those that are not overly structured.',
+                image:'assets/images/romanticm.png',
+                name:'Romantic Clothing Personality'
             },
             {
-                description: 'Male Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut lorem scelerisque ?',
-                image:'assets/images/quizzImage.png',
-                name:'Type Name 3'
+                description: 'Dramatic men love attention and power. your manner is one of supreme confidence and you are always in control of yourself and your situation. Your clothes reflect an exaggerated strength as does your personal coloring which is most often dark (hair and eyes). Dramatic men are energetic and hence are most commonly found living in busy cities where they can live life in the fast lane.',
+                image:'assets/images/dramaticm.png',
+                name:'Dramatic Clothing Personality'
+            },
+            {
+                description: 'You are friendly, informal, unpretentious and optimistic. You hate being closed-in or restricted in any way and this extends from suits to your places of employment. you are generally not greatly concerned about their appearance and if given the chance would happily live in jeans and a T-shirt. Natural men feel best in clothes that are comfortable, relaxed in style and those that allow them plenty of unrestricted movement (sportswear).',
+                image:'assets/images/naturalm.png',
+                name:'Natural Clothing Personality'
+            },
+            {
+                description: 'You have an incredible ability to put together completely unrelated garments, Coors, patterns and accessories and somehow make them work.  Creative men often seek employment in creative professions, such as acting, interior design, fashion design or the arts, It is young men who best carry off this mode of dress.',
+                image:'assets/images/creativem.png',
+                name:'Creative Clothing Personality'
+            },
+            {
+                description: 'You are the epitome of refinement, maturity and old money. Every facet of your appearance is meticulously managed to command respect and admiration. Usually you are successful and financially secure. you can afford clothes that are of the highest quality, and the time it takes to maintain his appearance.',
+                image:'assets/images/elegant.png',
+                name:'Elegant Clothing Personality'
             }
         ], 
         female : [
