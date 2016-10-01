@@ -7,7 +7,7 @@
       {{question.question}}
     </p>
     <div class="row responses">
-      <div class="col-xs-12  col-md-6 response-item" ng-repeat="(index,response) in question.responses">
+      <div class="col-xs-12 response-item" ng-repeat="(index,response) in question.responses">
         <p ng-class="{'active': index == question.activeResponse}" ng-click="question.goToNext(index)">{{response.value}}</p>
       </div>
     </div>
