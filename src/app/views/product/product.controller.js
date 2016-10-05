@@ -6,7 +6,7 @@
     .controller('ProductController', ProductController);
 
   /** @ngInject */
-  function ProductController(productsData, facebookServices, $rootScope, $stateParams, resultsData) {
+  function ProductController(productsData, facebookServices,$window, $rootScope, $stateParams, resultsData) {
     var vm = this;
 
 
@@ -29,6 +29,11 @@
     function inviteFriends(){
       facebookServices.sendToFriend("http://facebook.com");
     }
+
+    function goToAmazon(url){
+      $window.open(url, '_blank');
+
+    }
  
 
     function init(){
@@ -36,6 +41,7 @@
         vm.products=_.shuffle(productsData[_.result($rootScope,'user.gender','male')][id]);
         vm.name = resultsData[_.result($rootScope,'user.gender','male')][id].name;
         vm.inviteFriends = inviteFriends;
+        vm.goToAmazon = goToAmazon;
     }
     init();
 

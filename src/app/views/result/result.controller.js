@@ -46,6 +46,10 @@
       responses.setResponses([]);
       $state.go('home');
     }
+    function goToAmazon(url){
+      $window.open(url, '_blank');
+
+    }
 
     function init(){
       if(responses.getResponses().length === 0){
@@ -63,6 +67,7 @@
         vm.share = share;
         vm.inviteFriends = inviteFriends;
         vm.restart = restart;
+        vm.goToAmazon = goToAmazon;
       }
     }
     init();
