@@ -9,7 +9,7 @@
      */
     angular.module('playquizzy').factory('facebookServices', facebookServices);
 
-    function facebookServices() {
+    function facebookServices(configConstantes) {
 
 
 
@@ -17,17 +17,16 @@
         // ############### PUBLIC BUSINESS ############# //
         // ############################################# //
 
-        function shareFacebook(link, name, caption, description) {
+        function shareFacebook(link, name, caption, description, image) {
           FB.ui(
           {
             method: 'feed',
-            redirect_uri: 'http://localhost:3000/#/',
+            redirect_uri: configConstantes.siteUrlBase,
             link: link,
             name: name,
             caption: caption,
-            description: description
-          }, function(response){
-            console.log("Finished");
+            description: description,
+            picture: configConstantes.siteUrlBase + image
           });
         }
 
@@ -35,16 +34,12 @@
         function inviteFriends(message){
           FB.ui({method: 'apprequests',
             message:message
-          }, function(response){
-            console.log(response);
           });
         }
 
         function sendToFriend(link){
           FB.ui({method: 'send',
             link:link
-          }, function(response){
-            console.log(response);
           });
         }
 

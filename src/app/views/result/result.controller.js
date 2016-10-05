@@ -6,7 +6,7 @@
     .controller('ResultController', ResultController);
 
   /** @ngInject */
-  function ResultController(responses, facebookServices,$sce, $rootScope,  $timeout, questionsData, resultsData, $state,productsData) {
+  function ResultController(responses, facebookServices,$sce, $rootScope,  $timeout, questionsData, resultsData, $state,productsData, configConstantes) {
     var vm = this;
     var responseFlags;
     var results;
@@ -15,12 +15,13 @@
     function calculateResult(){
 
       responses.getResponses().forEach(function(ResponseIndex, QuestionIndex){
-
         var response = _.result(questionsData,$rootScope.user.gender + '['+QuestionIndex+'].responses['+ResponseIndex+']',{});
         _.result(response,'flags',[]).forEach(function(flag, index){
           responseFlags[index] += flag;
         });
+
       });
+
       userResultIndex = responseFlags.indexOf(_.max(responseFlags));
       vm.description = results[userResultIndex].description;
       vm.description = $sce.trustAsHtml(vm.description);
@@ -35,10 +36,15 @@
     }
 
     function share(){
-      facebookServices.shareFacebook("http://facebook.com", "name", "caption", "description");
+      facebookServices.shareFacebook(configConstantes.facebookUrlApp, results[userResultIndex].facebookName.replace('{{userName}}', $rootScope.user.name), configConstantes.share.result.caption, results[userResultIndex].facebookDescription.replace('{{userName}}', $rootScope.user.name), '/'+ vm.image );
     }
-    function inviteFriends(){
-      facebookServices.sendToFriend("http://facebook.com");
+    function inviteFriends(url){
+      facebookServices.sendToFriend(url || configConstantes.facebookUrlApp);
+    }
+
+    function restart(){
+      responses.setResponses([]);
+      $state.go('home');
     }
 
     function init(){
@@ -56,6 +62,7 @@
         }, 1500);
         vm.share = share;
         vm.inviteFriends = inviteFriends;
+        vm.restart = restart;
       }
     }
     init();
