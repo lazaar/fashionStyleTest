@@ -6,15 +6,27 @@
     <p class="lead">
       {{question.question}}
     </p>
-    <div class="row responses">
-      <div class="col-xs-12 response-item" ng-repeat="(index,response) in question.responses">
-        <p ng-class="{'active': index == question.activeResponse}" ng-click="question.goToNext(index)">{{response.value}}</p>
+
+
+  <div class="row responses"  >
+      <div  ng-class="{'col-sm-4 col-xs-6' : question.isImage==true , 'col-xs-12 response-item' : question.isImage==false , 'pading-img' : question.isImage==true}"  ng-repeat="(index,response) in question.responses" >
+        <p  ng-if="!question.isImage" ng-class="{'active': index == question.activeResponse}" ng-click="question.goToNext(index)">{{response.value}}</p>
+        <div ng-if="question.isImage" class="border-response-img">
+      <img  ng-src="{{response.value}}" ng-click="question.goToNext(index)">
+      <p class="response-text" >{{response.text}}</p>
+      </div>
       </div>
     </div>
+
+
+
+<div class="row">
+
     <p><button type="button" class="btn btn-default back-btn" ng-click="question.goToBack()" ng-if="question.id > 0"><i class="Quiz-icon icon-back"></i>Previous</button></p>
     <p>
       <small>© 2016, Play Quizzy</small>
-    </p>
+    </p>  </div>
+
   </div>
   <div class="jumbotron text-center gender-choose" ng-if="question.chooseGender">
     <h2>Select your gender</h2>
@@ -27,5 +39,5 @@
       <img src="assets/images/female.png">
     </div>
   </div>
-
+ 
 </div>

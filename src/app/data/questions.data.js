@@ -10,6 +10,7 @@
         male      : [
             {
                 text: 'Select the attributes that best describe your personality: ',
+                                isImage: false,
                 responses:[
                     {
                         value:"Unconventional and Creative",
@@ -35,6 +36,7 @@
             },
             {
                 text: 'How do you wear your hair?',
+                                isImage: false,
                 //image:'assets/images/quizzImage.png',
                 responses:[
                     {
@@ -57,6 +59,7 @@
             },
             {
                 text: 'What do you like to do on Saturdays?',
+                                isImage: false,
                 responses:[
                     {
                         value:"Some kind of activity: tennis, golf, sailing.",
@@ -78,6 +81,7 @@
             },
             {
                 text: 'What do you wear when it is cold outside?',
+                                isImage: false,
                 responses:[
                     {
                         value:"An overcoat",
@@ -99,6 +103,7 @@
             },
             {
                 text: 'What do you find most attractive in a woman?',
+                                isImage: false,
                 responses:[
                     {
                         value:"her sense of humor",
@@ -120,6 +125,7 @@
             },
             {
                 text: 'What are your favorite colors?',
+                                isImage: false,
                 responses:[
                     {
                         value:"Neutrals, black, whites",
@@ -145,6 +151,7 @@
             },
             {
                 text: 'If you could buy one of these accessories, which would it be?',
+                                isImage: false,
                 responses:[
                     {
                         value:"A simple watch",
@@ -166,6 +173,7 @@
             },
             {
                 text: 'How much time do you spend deciding what to wear?',
+                                isImage: false,
                 responses:[
                     {
                         value:"5min",
@@ -186,94 +194,209 @@
                 ]
             }
         ],
+         /*
+         * Questions
+         * result :  Classic - Trendy - Dramatic - Natural - Romantic - Creative
+         */
 
-        female      : [
+      female      : [
             {
-                text: 'Female Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut lorem scelerisque ?',
-                image:'assets/images/quizzImage.png',
+                text: 'Select the attributes that best describe your personality: ',
+                isImage: false,
                 responses:[
                     {
-                        value:"Response 1",
-                        flags:[0, 5,2]
+                        value:"Well-groomed & sophisticated",
+                        flags:[0, 0,1, 0, 5, 0]
                     },
                     {
-                        value:"Response 2",
-                        flags:[5, 0, 3]
+                        value:"Independent & self-assured",
+                        flags:[0, 5, 1, 0, 1 ,0 ]
                     },
                     {
-                        value:"Response 3",
-                        flags:[0, 0, 5]
+                        value:"Friendly and Relaxed",
+                        flags:[2, 0, 0, 5, 0, 0]
                     },
                     {
-                        value:"Response 4",
-                        flags:[2, 3, 2]
+                        value:"Hopeless romantic and sensitive",
+                        flags:[5, 0, 5, 0, 0, 1]
+                    },
+                    {
+                        value:"Unconventional and creative",
+                        flags:[2, 0, 0, 0, 0, 5]
                     }
                 ]
             },
             {
-                text: 'Question 2 yeeh?',
-                image:'assets/images/quizzImage.png',
+                text: 'Your dream outfit would be similar to:',
+                isImage: true,
                 responses:[
                     {
-                        value:"Response 1",
-                        flags:[0, 5,2]
+                        value:"assets/images/responseImage/question2a.png",
+                        text:"Breton top, chino pants, skinny belt with matching leather tote bag, pearl necklace and neutral sandals",
+                        flags:[5, 2, 0, 0, 1, 0]
                     },
                     {
-                        value:"Response 2",
-                        flags:[5, 5,2]
+                        value:"assets/images/responseImage/question2b.png",
+                         text:"Romper, cropped leather jacket, chunky platform sandals, trendy earrings, studded clutch purse",
+                        flags:[0, 5, 2, 0, 0, 1]
                     },
                     {
-                        value:"Response 3",
-                        flags:[1, 4,2]
+                        value:"assets/images/responseImage/question2c.png",
+                        text:"Jumpsuit, statement necklace, sleek patent clutch purse, Louboutin open toe pumps",
+
+                        flags:[3, 0, 5, 1, 2,0,1]
                     },
                     {
-                        value:"Response 4",
-                        flags:[2, 3,2]
+                        value:"assets/images/responseImage/question2d.png",
+                         text:"Casual white jeans with a chambray shirt, simple pendant necklace, rope bracelet, messenger bag and a pair of leather sandals",
+
+                        flags:[1, 0, 0, 5, 2,3,1]
+                    },
+                    {
+                        value:"assets/images/responseImage/question2e.png",
+                        text:"Pretty dress, vintage-inspired purse, peep toe sandals, simple stud earrings, charm chain bracelet",
+
+                        flags:[0, 0, 0, 1, 5,0,3]
+                    },
+                    {
+                        value:"assets/images/responseImage/question2f.png",
+                        text:"Print dress, bright-colored blazer, quirky sunglasses, fun platform sandals, layers of necklace and an exotic snake print clutch purse",
+                        flags:[0, 2, 0, 0, 2, 5]
                     }
                 ]
             },
             {
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut lorem scelerisque ?',
-                responses:[
+                text: 'Which famous celebrity fashionistas would you say you look up to in terms of style?',
+                 isImage: false,
+
+                    responses:[
                     {
-                        value:"Response 1",
-                        flags:[0, 5,2]
+                        value:"Victoria Beckham, Anne Hathaway ",
+                        flags:[5, 1, 0, 2, 0, 4]
                     },
                     {
-                        value:"Response 2",
-                        flags:[5, 5,2]
+                        value:"Beyonce, Rihanna",
+                        flags:[0, 5, 2, 0, 4, 0]
                     },
                     {
-                        value:"Response 3",
-                        flags:[1, 4,2]
+                        value:"Jennifer Aniston, Cameron Diaz",
+                        flags:[1, 0, 5, 4, 2, 0]
                     },
                     {
-                        value:"Response 4",
-                        flags:[2, 3,2]
+                        value:"Taylor Swift, Jennifer Lopez",
+                        flags:[0, 1, 2, 5, 2,0]
                     }
                 ]
             },
             {
-                text: 'Question 2 yeeh?',
+                text: 'What are your favorite colors?',
+              isImage: false,
                 responses:[
                     {
-                        value:"Response 1",
-                        flags:[0, 5,2]
+                        value:"Neutrals, black, whites",
+                        flags:[5, 0, 2, 0, 0, 1]
                     },
                     {
-                        value:"Response 2",
-                        flags:[5, 5,2]
+                        value:"Colors that represent authority",
+                        flags:[1, 5, 3, 0, 0, 2]
                     },
                     {
-                        value:"Response 3",
-                        flags:[1, 4,2]
+                        value:"Simplistic colors (Gray, blue ..)",
+                        flags:[0, 0, 5, 4, 3, 0]
                     },
                     {
-                        value:"Response 4",
-                        flags:[2, 3,2]
+                        value:"Pastels and soft colors, not too bold",
+                        flags:[4, 0, 0, 5, 2, 2]
+                    },
+                    {
+                        value:"Mixing all kinds of colors ",
+                        flags:[1, 1, 0, 3, 5, 3]
                     }
                 ]
             }
+            ,
+           
+            {
+                   text: "What do you like to do on Saturdays?",
+                    isImage: false,
+                    responses:[
+                    {
+                        value:"Some kind of activity: tennis, golf, sailing.",
+                        flags:[1,2, 4, 0, 2, 1]
+                    },
+                    {
+                        value:"Shop and go out.",
+                        flags:[2, 5, 1, 4, 3, 2]
+                    },
+                    {
+                        value:"Hang out at home, surf the net.",
+                        flags:[3, 2, 1, 4, 5, 1]
+                    },
+                    {
+                        value:"Family time",
+                        flags:[2, 2, 2, 3, 1, 1]
+                    }
+                ]
+            },
+            {
+                text: 'What type of shoes catches your eye?',
+                isImage: true,
+                responses:[
+                    {
+                        value:"assets/images/responseImage/question3a.png",
+                        text:"Simple pumps, ballerina flats, riding boots. ",
+                        flags:[5, 2, 3, 0, 1, 1]
+                    },
+                    {
+                        value:"assets/images/responseImage/question3b.png",
+                        text:"Platform sandals and booties, usually anything in the Newest Arrivals section.",
+                        flags:[1, 5, 2, 1, 0, 2]
+                    },
+                    {
+                        value:"assets/images/responseImage/question3c.png",
+                        text:"Designer pumps, stilettos, peep toe high heels, sleek knee boots and ankle booties",
+                        flags:[2, 5, 2, 3, 1, 2]
+                    },
+                    {
+                        value:"assets/images/responseImage/question3d.png",
+                        text:"Comfort is very important to me. ",
+                        flags:[4, 4, 5, 1, 2, 3]
+                    },
+                    {
+                        value:"assets/images/responseImage/question3e.png",
+                        text:"Vintage-inspired footwear such as oxfords, court pumps and cute print flats",
+                        flags:[1, 2, 5, 4, 3]
+                    },
+                    {
+                        value:"assets/images/responseImage/question3f.png",
+                        text:"Anything colorful, bold and unique.",
+                        flags:[3, 4, 3, 0, 1, 5]
+                    }
+                ]
+            },
+            {
+                text: 'How much time do you spend deciding what to wear?',
+                isImage: false,
+                responses:[
+                    {
+                        value:"10min",
+                        flags:[2, 0, 1, 4, 2, 0]
+                    },
+                    {
+                        value:"15min",
+                        flags:[3, 2, 2, 0, 3, 1]
+                    },
+                    {
+                        value:"25min",
+                        flags:[2, 3, 2, 0, 2, 2]
+                    },
+                    {
+                        value:"35min ",
+                        flags:[1, 2, 1, 0, 0, 4]
+                    }
+                ]
+            }
+        
         ]
         
     });

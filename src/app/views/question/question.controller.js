@@ -48,6 +48,7 @@
           vm.activeResponse = responses.getResponseByIndex(vm.id);
           vm.goToNext = goToNext;
           vm.question = question.text;
+          vm.isImage = question.isImage;
           vm.responses = question.responses;
           vm.image = question.image;
           vm.goToBack= goToBack;

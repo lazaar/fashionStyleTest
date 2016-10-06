@@ -23,6 +23,15 @@ p.description{
 		margin-top:30px;
 	}
 }
+.border-response-img{
+	border: 1px solid #000000;
+
+}
+.pading-img{
+padding-top: 10px;
+
+}
+
 .thumbnail{
 	height:inherit;
 	.btn-default{
@@ -51,7 +60,10 @@ small{
 	max-width: 50px;
 	margin: 20px 0;
 }
+.response-text{
+		font-size: 14px !important;
 
+}
 .Quiz-icon{
 	display: inline-block;
     width: 15px;
@@ -120,6 +132,13 @@ small{
 		background-color:#34495e;
 	}
 }
+.response-item:nth-child(6) p{
+	border: 1px solid #34495e;
+	border-left: 10px solid #34495e;
+	&:hover, &.active{
+		background-color:#34495e;
+	}
+}
 .gender-choose{
 	img{
 		max-width: 200px;
@@ -128,6 +147,18 @@ small{
 		cursor: pointer;
 	}
 }
+
+.response-img{
+	img{
+		max-width: 200px;
+		    padding-top: 12px;
+
+	}
+	.col-xs-6{
+		cursor: pointer;
+	}
+}
+
 @media (max-width: 767px)  and  (min-width: 487px) { 
 .productImage{
 		max-width: 57% !important;
