@@ -22,7 +22,6 @@
          */
         function setResponses(value) {
             responses = value;
-            
         }
 
         /**

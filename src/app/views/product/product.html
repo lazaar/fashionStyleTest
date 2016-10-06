@@ -4,25 +4,39 @@
  
     
 <div >
-    <h2>Your result</h2>
+    <h2>Recommendations for {{product.name}}</h2>
 
-<div class="row" >
-  <div class="col-xxs-12 col-xs-6  col-sm-4 col-md-3" ng-repeat="products in product.products  | limitTo: product.paginationLimit()" >
+<div class="row" masonry load-images="true" >
+  <div class="col-xxs-12 col-xs-6  col-sm-4 col-md-3 masonry-brick" ng-repeat="products in product.products  | limitTo: product.paginationLimit()" >
     <div class="thumbnail">
-      <img ng-src="{{products.image}}"  class="productImage"  >
+      <img ng-src="{{products.image}}"  class="productImage"  ng-click="product.goToAmazon(products.url)">
       <div  >
-        <h4>{{products.name}}</h4>
-        <p>                    <div><button type="button " class="btn btn-success ">
-<i class="Quiz-icon icon-shopping"></i>
-        Buy now</button></div>
+        <h4 ng-click="product.goToAmazon(products.url)">{{products.name}}</h4>
+        <p>
+        <div>
+          <a href="{{products.url}} " class="btn btn-success " target="_blank">
+            <i class="Quiz-icon icon-shopping"></i>
+            Buy now
+          </a>
+        </div>
         
-        <button type="button" class="btn btn-md btn-default" ng-click="product.inviteFriends()">Share with Friends</button>
-</p>
+          <button type="button" class="btn btn-md btn-default" ng-click="product.inviteFriends()">Share with Friends</button>
+        </p>
       </div>
     </div>
   </div>
 </div>
 <button type="button" ng-show="product.hasMoreItemsToShow()" ng-click="product.showMoreItems()" class="btn btn-default"><i class="Quiz-icon icon-showMore"></i>Show more</button>
+</div>
+<div class="newsletter">
+  <h4 class="h4-subtitle">Newsletter subscription</h4>
+  <p>To receive more informations about your clothing Personality and recommendations for your Fashion style subscribe to our Newsletter</p>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Email">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default">Subscribe</button>
+      </div>
+    </div>  
 </div>
       <small>© 2016, Play Quizzy</small>
     </p>

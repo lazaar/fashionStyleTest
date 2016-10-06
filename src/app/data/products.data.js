@@ -10,6 +10,111 @@
             //Classic
             [  
                 { 
+                       url : "https://www.amazon.com/dp/B00GROHJI4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51DBjYz%2Bq0L._SL160_.jpg",
+                       name : "Zicac Men's Top Designed Casual Slim Fit Skinny Dress Vest Waistcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00C97I2CU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41y-Phm4MBL._SL160_.jpg",
+                       name : "Allegra K Men Notched Lapel Center-Vent Back One-Button Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01DNH3WE2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/515GHMITHIL._SL160_.jpg",
+                       name : "Pishon Men's Slim Fit Suits Casual One Button Flap Pockets Solid Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00UHGT21K/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51FWxPeirkL._SL160_.jpg",
+                       name : "Zicac Men's Unique Advanced Custom Vest Skinny Wedding Dress Waistcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CQL5L7M/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41utKUhKKLL._SL160_.jpg",
+                       name : "Benibos Men's Slim Fit Casual Premium Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CN7TO28/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51QHQs%2BkQiL._SL160_.jpg",
+                       name : "Haggar Men's Houndstooth Windowpane Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B019T96IYE/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51XGl7WYH8L._SL160_.jpg",
+                       name : "Mens Slim Fit Casual One Button Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B014PGN7PE/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41X82unGERL._SL160_.jpg",
+                       name : "U.S. Polo Assn. Men's Wool Tweed Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00NARZ1X6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/410HjQG0ryL._SL160_.jpg",
+                       name : "Perry Ellis Men's 5 Button Suit Separate Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01AVIO8QM/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41DFDxsQS0L._SL160_.jpg",
+                       name : "Geoffrey Beene Men's Dark Blue Sport Coat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CMO89J6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51yM59kpvpL._SL160_.jpg",
+                       name : "H2H Mens Fashion Linen Blazer of Various Colors Single Button "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00T7TSI86/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41LpY4FDk2L._SL160_.jpg",
+                       name : "Jerzees Men's Long-Sleeve T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00SKX1QMU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41fn1wZ2uTL._SL160_.jpg",
+                       name : "PAUL JONES Mens Dress Shirt in Slim Fit CL5252 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00F3SJQ72/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41a6Zry91bL._SL160_.jpg",
+                       name : "Tom's Ware Mens Premium Casual Inner Contrast Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B007BLNDLO/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/419xFBb5XWL._SL160_.jpg",
+                       name : "Lee Uniforms Men's Short Sleeve Uniforms Polo Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00EAN2JHU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41h164G-wiL._SL160_.jpg",
+                       name : "Carhartt Men's Workwear Pocket Short Sleeve Henley Original Fit Shirt K84 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01EWMSWH4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/513ib5SCpKL._SL160_.jpg",
+                       name : "localmode Men's 100% Cotton Long Sleeve Plaid Slim Fit Button Down Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B000BSJEQW/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41Es8engFpL._SL160_.jpg",
+                       name : "Jerzees Mens 437 SpotShield Polo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B0031RFWSE/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41wwhqBdD8L._SL160_.jpg",
+                       name : "Columbia Sportswear Men's Bahama II Long Sleeve Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00KTD721I/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ZdYJInIJL._SL160_.jpg",
+                       name : "Burnside Men's Locked Solid Button Down Long Sleeve Woven Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B003L2EWGW/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/513z1kLxEoL._SL160_.jpg",
+                       name : "Polo Ralph Lauren Men Custom Fit Mesh Polo Shirt "
+                },
+                { 
                        url : "https://www.amazon.com/dp/B002AQRVZE/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/419Xiar0NuL._SL160_.jpg",
                        name : "Haggar Men's Cool 18 Hidden Expandable-Waist Plain-Front Pant "
@@ -214,6 +319,96 @@
             //Romantic 
             [
                 { 
+                       url : "https://www.amazon.com/dp/B01CQL5L7M/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41utKUhKKLL._SL160_.jpg",
+                       name : "Benibos Men's Slim Fit Casual Premium Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CN7TO28/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51QHQs%2BkQiL._SL160_.jpg",
+                       name : "Haggar Men's Houndstooth Windowpane Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CFCXBPC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41bo6Xo213L._SL160_.jpg",
+                       name : "H2H Mens Fashion Business Suit Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B009LR0DKU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/417qslXT7UL._SL160_.jpg",
+                       name : "FLATSEVEN Mens Slim Fit Casual Premium Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B014OVJBMS/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41YdhTMJDEL._SL160_.jpg",
+                       name : "MOGU Men's 1 Button Center Vent Wool Blend Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00YI24D3G/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41OShSbbFvL._SL160_.jpg",
+                       name : "Modern Fit Tuxedo - Available in Black or White "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01J81CJWS/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41-8Hwz3foL._SL160_.jpg",
+                       name : "Next Class Men's Two-button Double Breasted Peaked Lapel Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00S32CFTG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ItExXRxjL._SL160_.jpg",
+                       name : "Men's Black Tuxedo Jacket with Tails Tailcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CO94XV6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41AD2--xBrL._SL160_.jpg",
+                       name : "Men's Black Slim Fit Calvin Klein Tuxedo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00N1ZCYDW/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/31WuRGz%2B9eL._SL160_.jpg",
+                       name : "Lanbaosi Men's Casual Slim Fit One Button Pop White Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00SKX1QMU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41fn1wZ2uTL._SL160_.jpg",
+                       name : "PAUL JONES Mens Dress Shirt in Slim Fit CL5252 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00F3SJQ72/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41a6Zry91bL._SL160_.jpg",
+                       name : "Tom's Ware Mens Premium Casual Inner Contrast Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B000BSJEQW/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41Es8engFpL._SL160_.jpg",
+                       name : "Jerzees Mens 437 SpotShield Polo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01DZVFD98/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41LrfknLCiL._SL160_.jpg",
+                       name : "NEARKIN Beloved Men Henley Neck Long Sleeve Daily Look Linen Shirts "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00TAGFEBK/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41Le%2BpQ87rL._SL160_.jpg",
+                       name : "IDARBI Mens Dress Shirt Longsleeve Slim Fit (24 Colors & 11 Sizes Available) "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01HCBEVGI/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41MqCYtFEIL._SL160_.jpg",
+                       name : "HB Men's Extra Slim Fit Casual Plain Long Sleeve Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B018JWXQ6U/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41SnUBCULYL._SL160_.jpg",
+                       name : "Men's White T-shirt 100% Cotton Thai Hippie Shirt V-neck Beach Yoga Top "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B008KGYVDI/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41Pp3%2Br7OGL._SL160_.jpg",
+                       name : "Wrangler Men's Sport Western Snap-Front Long-Sleeve Shirt "
+                },
+                { 
                        url : "https://www.amazon.com/dp/B002HEX25C/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41APnM798xL._SL160_.jpg",
                        name : "Savane Men's Pleated Performance Chino Pant "
@@ -377,6 +572,101 @@
             
             //Dramatic
             [
+                { 
+                       url : "https://www.amazon.com/dp/B00Z6XFSQC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41qKNdao5oL._SL160_.jpg",
+                       name : "Mens Slim Fit Casual One Button Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00BMK8JY6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51f63e6kjQL._SL160_.jpg",
+                       name : "H2H Mens Casual Slim Fit Two-tone Herringbone Jacket Cardigans "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01I4TOST2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41rnStVvCaL._SL160_.jpg",
+                       name : "Men's Slim Fit Peak Lapel Suit Blazer Jacket Tux Vest & Trousers 3-piece Suit Set "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01E88TN52/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41z6bnwOVlL._SL160_.jpg",
+                       name : "Men's Modern Fit 3-Piece Suit Blazer Jacket Tux Vest & Trousers "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00421BIIG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/410KVZwzZML._SL160_.jpg",
+                       name : "Kenneth Cole REACTION Men's Black-Solid Suit Separate Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B017YHV33O/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41WNN8JmHsL._SL160_.jpg",
+                       name : "Coofandy Men's Casual Double-breasted Jacket Slim Fit Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B006N1JMYA/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41KTrBfpj3L._SL160_.jpg",
+                       name : "737 THELEES Mens Luxury UNIQUE Style Slim fit 8 Button Front Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01A73DZN8/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41QpAT3-qhL._SL160_.jpg",
+                       name : "Hanayome Men's Double-Breasted Leisure Business Suit Dress Vest Waistcoat VS02 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00D119SCG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ZaqSVaE9L._SL160_.jpg",
+                       name : "TheLees Mens Slim Leather Patched 2 Button Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00S32CFTG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ItExXRxjL._SL160_.jpg",
+                       name : "Men's Black Tuxedo Jacket with Tails Tailcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01EWMSWH4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/513ib5SCpKL._SL160_.jpg",
+                       name : "localmode Men's 100% Cotton Long Sleeve Plaid Slim Fit Button Down Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00I39SDYA/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51chbUBvYfL._SL160_.jpg",
+                       name : "H2H Mens Casual Slim Fit Henley Shirts With Bound Pocket of Waffle Cotton "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00WJT89U8/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51p40WWxVIL._SL160_.jpg",
+                       name : "Ularmo Men Boy Summer Cotton Tees Shirt Short Sleeve Star Printed T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CMLQXM4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41XlYXW7P%2BL._SL160_.jpg",
+                       name : "H2H Mens Casual Solid Giraffe Polo Shirts with Giraffe embroidery "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00X4J1DN2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ekVmIRpfL._SL160_.jpg",
+                       name : "Hanes Men's ComfortSoft PiquÃ© Polo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01H062BMQ/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51jn6hKsDcL._SL160_.jpg",
+                       name : "HOTOUCH Men Contrast Collar Regular Fit Dress Shirt Casual Button Down Shirts "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B004OW1J2S/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/31EUP3QAKUL._SL160_.jpg",
+                       name : "Van Heusen Men's Long-Sleeve Dress Twill "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01BD9QXMK/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41eyCuuBZtL._SL160_.jpg",
+                       name : "Doublju Mens Slim Fit Cotton Flannel Long Sleeve Button Down Shirts "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B018LHDIFM/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51nxxfH53eL._SL160_.jpg",
+                       name : "L'asher Men Summer Fashion Button V Neck Slim Muscle Tops Tee T Shirt Tshirt "
+                },
                 { 
                        url : "https://www.amazon.com/dp/B002AQRTCE/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41R-1lxxvfL._SL160_.jpg",
@@ -601,6 +891,136 @@
 
             //Naturel
             [
+                { 
+                       url : "https://www.amazon.com/dp/B01DNH3WE2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/515GHMITHIL._SL160_.jpg",
+                       name : "Pishon Men's Slim Fit Suits Casual One Button Flap Pockets Solid Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00UHGT21K/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51FWxPeirkL._SL160_.jpg",
+                       name : "Zicac Men's Unique Advanced Custom Vest Skinny Wedding Dress Waistcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CQL5L7M/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41utKUhKKLL._SL160_.jpg",
+                       name : "Benibos Men's Slim Fit Casual Premium Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CN7TO28/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51QHQs%2BkQiL._SL160_.jpg",
+                       name : "Haggar Men's Houndstooth Windowpane Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B019T96IYE/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51XGl7WYH8L._SL160_.jpg",
+                       name : "Mens Slim Fit Casual One Button Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01D3MYOM6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41iOVhf12LL._SL160_.jpg",
+                       name : "Greg Norman Men's Two Button Herringbone Sport Coat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B014OVJBMS/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41YdhTMJDEL._SL160_.jpg",
+                       name : "MOGU Men's 1 Button Center Vent Wool Blend Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CMO89J6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51yM59kpvpL._SL160_.jpg",
+                       name : "H2H Mens Fashion Linen Blazer of Various Colors Single Button "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B013XT6VFC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41crRm%2BHsXL._SL160_.jpg",
+                       name : "U.S. Polo Assn. Men's Velvet Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00M59LSEQ/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/511lh-aHawL._SL160_.jpg",
+                       name : "U.S. Polo Assn. Men's Wool Donegal Sport Coat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01H74DE5E/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41zV1JoOsoL._SL160_.jpg",
+                       name : "Ruth&Boaz Men's 2Pockets 3Button Business Suit Vest "
+                },            
+                { 
+                       url : "https://www.amazon.com/dp/B00EUYP4DK/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/416f8iwbDKL._SL160_.jpg",
+                       name : "Levi's Men's 550 Short "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00MB5Q434/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/412FXfoD-WL._SL160_.jpg",
+                       name : "WenVen Men's Cotton Twill Cargo Shorts Outdoor Wear Lightweight "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00JJV4AFW/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41gH0iiARcL._SL160_.jpg",
+                       name : "Next Level mens Premium Sueded V shirt - 6440 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00T7TSI86/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41LpY4FDk2L._SL160_.jpg",
+                       name : "Jerzees Men's Long-Sleeve T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B003AU5WJQ/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41zWWIU5k2L._SL160_.jpg",
+                       name : "Soffe Men's Long-Sleeve Cotton T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00F3SJQ72/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41a6Zry91bL._SL160_.jpg",
+                       name : "Tom's Ware Mens Premium Casual Inner Contrast Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00EUHCKWU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51jijzCJK1L._SL160_.jpg",
+                       name : "Legendary Whitetails Men's Journeyman Rugged Shirt Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B000BTIKQQ/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41p0G5WGGRL._SL160_.jpg",
+                       name : "Gildan Men's Heavy Cotton T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B004IMMIM4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41C994OhRAL._SL160_.jpg",
+                       name : "Hanes Adult Tagless Long Sleeve Tee "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00RKE2HJG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41HdDUaSeOL._SL160_.jpg",
+                       name : "Casual Raglan Mens 3/4 Sleeve TShirt Baseball Cotton Jersey S-3XL (17+ Colors) "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01F65IHFI/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/512VTXIgf3L._SL160_.jpg",
+                       name : "Gioberti Mens Casual Plaid Short Sleeve Button Down Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00X4J1DN2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ekVmIRpfL._SL160_.jpg",
+                       name : "Hanes Men's ComfortSoft PiquÃ© Polo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00MB6E0JS/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41M7FcO64AL._SL160_.jpg",
+                       name : "Allegra K Men Color Block Stripes T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01IA2W8MW/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/31BooR%2BnjVL._SL160_.jpg",
+                       name : "Columbia Men's Plus Tamiami Ii Long Sleeve Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00BLYRDIG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41rF3dZBi6L._SL160_.jpg",
+                       name : "Dickies Men's Short Sleeve Two-Tone Work Shirt "
+                },
                 { 
                        url : "https://www.amazon.com/dp/B002AQRVZE/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/419Xiar0NuL._SL160_.jpg",
@@ -921,6 +1341,101 @@
             //Creative
             [
                 { 
+                       url : "https://www.amazon.com/dp/B00GROHJI4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51DBjYz%2Bq0L._SL160_.jpg",
+                       name : "Zicac Men's Top Designed Casual Slim Fit Skinny Dress Vest Waistcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00BMK8JY6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51f63e6kjQL._SL160_.jpg",
+                       name : "H2H Mens Casual Slim Fit Two-tone Herringbone Jacket Cardigans "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01DNH3WE2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/515GHMITHIL._SL160_.jpg",
+                       name : "Pishon Men's Slim Fit Suits Casual One Button Flap Pockets Solid Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CQL5L7M/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41utKUhKKLL._SL160_.jpg",
+                       name : "Benibos Men's Slim Fit Casual Premium Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00M59LWVK/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41pMjz9SrjL._SL160_.jpg",
+                       name : "U.S. Polo Assn. Men's Corduroy Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00O29UYSI/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41OsrEkRJuL._SL160_.jpg",
+                       name : "Lanbaosi Men's Casual Slim Fit Oblique 6 Button Down Stand Collar Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CMO89J6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51yM59kpvpL._SL160_.jpg",
+                       name : "H2H Mens Fashion Linen Blazer of Various Colors Single Button "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00EJCE1GY/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/4168LqV0eTL._SL160_.jpg",
+                       name : "H2H Mens Fashion Slim Fit Blazer with Button Strap Collar "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01BGG1J42/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41-RsfL6CUL._SL160_.jpg",
+                       name : "Perry Ellis Men's Linen Suit Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B019JMAYR8/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41JDDmoLESL._SL160_.jpg",
+                       name : "Salvatore Exte Men's Notch Lapel Casual Vest Modern Fit Dress Suit Waistcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00F3SJQ72/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41a6Zry91bL._SL160_.jpg",
+                       name : "Tom's Ware Mens Premium Casual Inner Contrast Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01EWMSWH4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/513ib5SCpKL._SL160_.jpg",
+                       name : "localmode Men's 100% Cotton Long Sleeve Plaid Slim Fit Button Down Dress Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01DZVFD98/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41LrfknLCiL._SL160_.jpg",
+                       name : "NEARKIN Beloved Men Henley Neck Long Sleeve Daily Look Linen Shirts "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01E8NO4SI/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41wrxjICVaL._SL160_.jpg",
+                       name : "H2H Mens Casual Slim Fit Raglan Baseball Three-Quarter Sleeve Henley T-Shirts "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01FTD9AEY/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/31YWymXMygL._SL160_.jpg",
+                       name : "OLRIK Men's Hipster Hip Hop Short Sleeve Hoodie Side Zipper Tshirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00WJT89U8/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51p40WWxVIL._SL160_.jpg",
+                       name : "Ularmo Men Boy Summer Cotton Tees Shirt Short Sleeve Star Printed T-Shirt "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00FXLCUPO/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41Ql-TGcusL._SL160_.jpg",
+                       name : "Tom's Ware Mens Classic Slim Fit Contrast Inner Long Sleeve Dress Shirts "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B018JWXQ6U/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41SnUBCULYL._SL160_.jpg",
+                       name : "Men's White T-shirt 100% Cotton Thai Hippie Shirt V-neck Beach Yoga Top "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B018LHDIFM/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51nxxfH53eL._SL160_.jpg",
+                       name : "L'asher Men Summer Fashion Button V Neck Slim Muscle Tops Tee T Shirt Tshirt "
+                },
+                { 
                        url : "https://www.amazon.com/dp/B007U1YRO2/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/410TwPUNj4L._SL160_.jpg",
                        name : "IZOD Men's American Chino Flat Front Straight-Fit Pant "
@@ -1154,6 +1669,141 @@
                 
             //Elegant
             [
+                { 
+                       url : "https://www.amazon.com/dp/B00Z6XFSQC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41qKNdao5oL._SL160_.jpg",
+                       name : "Mens Slim Fit Casual One Button Blazer Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00SAEFJZ4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41VF7bsJm6L._SL160_.jpg",
+                       name : "Azzurro Men's Dress Vest Set Neck Tie, Hanky for Suit or Tuxedo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B006N1JBM8/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41HP-%2BC16wL._SL160_.jpg",
+                       name : "SVE TheLees Mens slim fit chain point 3 button vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01I4TOST2/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41rnStVvCaL._SL160_.jpg",
+                       name : "Men's Slim Fit Peak Lapel Suit Blazer Jacket Tux Vest & Trousers 3-piece Suit Set "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00LN60BYA/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41X%2BHw63feL._SL160_.jpg",
+                       name : "Vest, QinYing V-neck Sleeveless Slim Fit Jacket Men Business Suit "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01E88TN52/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41z6bnwOVlL._SL160_.jpg",
+                       name : "Men's Modern Fit 3-Piece Suit Blazer Jacket Tux Vest & Trousers "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00CFCXBPC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41bo6Xo213L._SL160_.jpg",
+                       name : "H2H Mens Fashion Business Suit Vest "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CT97QZQ/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/31En-2oa-HL._SL160_.jpg",
+                       name : "Men's 2 Piece Single Breasted 2 Button Suit - Black "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01AGWI9RM/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/410lotWYn4L._SL160_.jpg",
+                       name : "Kenneth Cole New York Men's Two-Button Slim-Fit Suit "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00ND95C1W/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/51VAp3ffU7L._SL160_.jpg",
+                       name : "EGC1B04-06 Inspire Style Patterned Waistcoat Microfiber Designer Vests By Epoint "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00421BIIG/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/410KVZwzZML._SL160_.jpg",
+                       name : "Kenneth Cole REACTION Men's Black-Solid Suit Separate Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B018G7HTSY/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41tBC5Z316L._SL160_.jpg",
+                       name : "Coofandy Men's V-neck Sleeveless Slim Fit Jacket Casual Suit Vests "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B014SFE6I4/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41yPSLUIbjL._SL160_.jpg",
+                       name : "H2H Mens Formal Slim Fit Premium Business Dress Suit 4 Button Vests With Pocket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01ELN3AU8/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/4102CvqAe5L._SL160_.jpg",
+                       name : "MOGU Mens One Button Suits 3 Piece Suit "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00JX1OA9E/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41U8yWeTQUL._SL160_.jpg",
+                       name : "IDARBI for MEN 3 Pieces Set Solid Formal Tuxedo Vest Set (XS~4XL Size Available) "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CPWJWHC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/5165%2ByMJElL._SL160_.jpg",
+                       name : "Men's Elegant Classic 2 Button Blazer Sport Jacket "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01A73DYZC/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41sEwdW5JJL._SL160_.jpg",
+                       name : "Hanayome Men's Formal Vest Casual Waistcoat Dress Vests Jackets VS05 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B009P5665E/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/517klVWVnVL._SL160_.jpg",
+                       name : "FLATSEVEN Mens Designer Stylish Casual Vest Premium "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00T2SFYIO/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41ionI9CNXL._SL160_.jpg",
+                       name : "Men's Casual Fashion V-neck Double Layered Fit Vest Waistcoat Slim Jacket Tops "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00UUCCQ96/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41hXu4mvf5L._SL160_.jpg",
+                       name : "Ferrecci Premium Mens Victorian Tail Tuxedo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01AOEFV9G/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/412AUIoIRzL._SL160_.jpg",
+                       name : "3 Pcs Vest + Tie + Hankie Yellow Fashion Men's Formal Dress Suit Waistcoat "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00J2QPANA/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41RZpTLy93L._SL160_.jpg",
+                       name : "H2H Mens Fashion Basic Slim Fit Lightweight Long Sleeve Jacket Blazer "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01CO94XV6/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41AD2--xBrL._SL160_.jpg",
+                       name : "Men's Black Slim Fit Calvin Klein Tuxedo "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00SKX1QMU/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41fn1wZ2uTL._SL160_.jpg",
+                       name : "PAUL JONES Mens Dress Shirt in Slim Fit CL5252 "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00TAGFEBK/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41Le%2BpQ87rL._SL160_.jpg",
+                       name : "IDARBI Mens Dress Shirt Longsleeve Slim Fit (24 Colors & 11 Sizes Available) "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B00HAAYFFO/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/41bcD44U-xL._SL160_.jpg",
+                       name : "Milano Moda Men's Long Sleeve Dress Shirt With Matching Tie And Handkerchief "
+                },
+                { 
+                       url : "https://www.amazon.com/dp/B01GF3WQ84/?tag=playquizzy-20",
+                       image : "http://ecx.images-amazon.com/images/I/418VzL4cXQL._SL160_.jpg",
+                       name : "Fortino Landi Men's Long Sleeve Dress Shirt, Tie And Hanky Set - Many Colors "
+                },
                 { 
                        url : "https://www.amazon.com/dp/B002AQRVZE/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/419Xiar0NuL._SL160_.jpg",

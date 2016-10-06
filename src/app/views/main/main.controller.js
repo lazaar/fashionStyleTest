@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, toastr, $state, $rootScope, facebookServices) {
+  function MainController($timeout, toastr, $state, $rootScope, facebookServices, configConstantes) {
     var vm = this;
 
     function activateAnimation() {
@@ -32,11 +32,11 @@
     }
 
     function share(){
-      facebookServices.shareFacebook("http://facebook.com", "name", "caption", "description");
+      facebookServices.shareFacebook(configConstantes.facebookUrlApp, configConstantes.share.main.name, configConstantes.share.main.caption, configConstantes.share.main.description, '/assets/images/quizzImage.png');
     }
 
     function inviteFriends(){
-      facebookServices.sendToFriend("http://facebook.com");
+      facebookServices.sendToFriend(configConstantes.facebookUrlApp);
     }
 
     function init(){
