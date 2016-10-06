@@ -36,7 +36,7 @@
             },
             {
                 text: 'How do you wear your hair?',
-                                isImage: false,
+                 isImage: false,
                 //image:'assets/images/quizzImage.png',
                 responses:[
                     {
