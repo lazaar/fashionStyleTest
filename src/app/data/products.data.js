@@ -5360,11 +5360,7 @@
        image : "http://ecx.images-amazon.com/images/I/315vBD1C69L._SL160_.jpg",
        name : "Ever Pretty Womens Women's Formal Evening Dresses 14 US Black "
 },
-{ 
-       url : "https://www.amazon.com/dp/B00U87I2ZA/?tag=playquizzy-20",
-       image : "http://g-ecx.images-amazon.com/images/G/01/x-site/icons/no-img-sm._CB192198896_._SL160_.gif",
-       name : "Fashion Plaza Short Chiffon Strapless Crystal Homecoming Dress D0263 (US2, Blue) "
-},
+
 { 
        url : "https://www.amazon.com/dp/B00QM0FREG/?tag=playquizzy-20",
        image : "http://ecx.images-amazon.com/images/I/41Fmfi6hOTL._SL160_.jpg",
