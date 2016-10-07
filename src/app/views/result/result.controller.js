@@ -6,7 +6,7 @@
     .controller('ResultController', ResultController);
 
   /** @ngInject */
-  function ResultController(responses, facebookServices,$sce, $rootScope,  $timeout, questionsData, resultsData, $state,productsData, configConstantes) {
+  function ResultController(responses, facebookServices,$sce, actionServices, $rootScope,  $timeout, questionsData, resultsData, $state,productsData, configConstantes) {
     var vm = this;
     var responseFlags;
     var results;
@@ -28,6 +28,8 @@
       vm.name = results[userResultIndex].name;
       vm.image = results[userResultIndex].image;
       vm.products=_.take(_.shuffle( productsData[$rootScope.user.gender][userResultIndex] ),4);
+
+      actionServices.saveResult(vm.email,vm.name, $rootScope.user,responses.getResponses()  );
     }
 
     vm.more=function(){
@@ -43,12 +45,24 @@
     }
 
     function restart(){
-      responses.setResponses([]);
       $state.go('home');
     }
     function goToAmazon(url){
       $window.open(url, '_blank');
 
+    }
+
+    function subscribe(){
+      vm.emailLoading = true;
+      actionServices.subscribe(vm.email, vm.name).then(function(){
+        vm.displayMessage = 'Subscribe Successful!';
+        vm.style = {color:'green'};
+      }).catch(function(){
+        vm.displayMessage = 'An error occured, try again later';
+        vm.style = {color:'red'};
+      }).finally(function(){
+        vm.emailLoading = false;
+      });
     }
 
     function init(){
@@ -57,6 +71,7 @@
       }
       else{
         results = resultsData[$rootScope.user.gender];
+        vm.email = _.result($rootScope,'user.email',undefined);
         responseFlags = new Array(results.length);
         _.fill(responseFlags, 0);
         vm.isLoading = true;
@@ -68,6 +83,7 @@
         vm.inviteFriends = inviteFriends;
         vm.restart = restart;
         vm.goToAmazon = goToAmazon;
+        vm.subscribe = subscribe;
       }
     }
     init();

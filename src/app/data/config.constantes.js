@@ -6,6 +6,12 @@
 
         siteUrlBase :  'http://localhost:3000',
         facebookUrlApp : 'http://localhost:3000',
+        BOurl : 'http://localhost:8888/fashion/actions.php',
+
+        methods:{
+            newsletter : 'newsletter',
+            saveResult : 'saveResult'
+        },
 
         share:{
         	main:{

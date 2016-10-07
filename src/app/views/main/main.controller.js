@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, toastr, $state, $rootScope, facebookServices, configConstantes) {
+  function MainController($timeout, toastr, $state, $rootScope, facebookServices, configConstantes, responses) {
     var vm = this;
 
     function activateAnimation() {
@@ -17,6 +17,7 @@
     }
 
     function startQuiz() {
+      responses.setResponses([]);
       if(!_.isEmpty($rootScope.user)){
         $state.go("question", {id:0});
       }

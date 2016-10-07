@@ -1,8 +1,8 @@
 <div class="container-fluid">
 
   <div class="jumbotron text-center">
- 
-    
+ <button type="button" class="btn btn-primary" ng-click="product.restart()">Restart Quiz</button>
+
 <div >
     <h2>Recommendations for {{product.name}}</h2>
 
@@ -31,12 +31,21 @@
 <div class="newsletter">
   <h4 class="h4-subtitle">Newsletter subscription</h4>
   <p>To receive more informations about your clothing Personality and recommendations for your Fashion style subscribe to our Newsletter</p>
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Email">
-      <div class="input-group-btn">
-        <button type="button" class="btn btn-default">Subscribe</button>
-      </div>
-    </div>  
+    <form name="newsletterForm" ng-submit="newsletterForm.$valid && product.subscribe()" novalidate>
+      <div class="input-group" ng-class="{'error-wrapper': newsletterForm.$submitted && newsletterForm.email.$invalid}">
+        <input name="email" type="email" class="form-control" placeholder="Email" ng-model="product.email" required>
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-default">Subscribe</button>
+        </div>
+      </div>  
+        <span class="error" ng-show="newsletterForm.$submitted && newsletterForm.email.$invalid">
+          A valid email address is required.</span>
+          <div class="loader-email" ng-if="product.emailLoading">
+            <img src="assets/images/loading.gif" class="loader">  
+          </div>
+          <span ng-style="product.style">{{product.displayMessage}}</span>
+
+      </form>
 </div>
       <small>© 2016, Play Quizzy</small>
     </p>
