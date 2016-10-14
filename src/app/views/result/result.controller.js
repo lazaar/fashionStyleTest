@@ -54,10 +54,10 @@
 
     function subscribe(){
       vm.emailLoading = true;
-      actionServices.subscribe(vm.email, vm.name).then(function(){
+      actionServices.subscribe(vm.email, vm.name).then(function(data){
         vm.displayMessage = 'Subscribe Successful!';
         vm.style = {color:'green'};
-      }).catch(function(){
+      }).catch(function(data){
         vm.displayMessage = 'An error occured, try again later';
         vm.style = {color:'red'};
       }).finally(function(){

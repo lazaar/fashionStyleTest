@@ -365,7 +365,7 @@
                 },
                 { 
                        url : "https://www.amazon.com/dp/B00N1ZCYDW/?tag=playquizzy-20",
-                       image : "http://ecx.images-amazon.com/images/I/31WuRGz%2B9eL._SL160_.jpg",
+                       image : "https://images-na.ssl-images-amazon.com/images/I/713rCWPrwZL._UX679_.jpg",
                        name : "Lanbaosi Men's Casual Slim Fit One Button Pop White Jacket "
                 },
                 { 
