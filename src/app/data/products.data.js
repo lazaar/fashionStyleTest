@@ -74,7 +74,6 @@
                        image : "http://ecx.images-amazon.com/images/I/41fn1wZ2uTL._SL160_.jpg",
                        name : "PAUL JONES Mens Dress Shirt in Slim Fit CL5252 "
                 },
-
                 { 
                        url : "https://www.amazon.com/dp/B00F3SJQ72/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41a6Zry91bL._SL160_.jpg",
@@ -149,123 +148,7 @@
                        url : "https://www.amazon.com/dp/B0018OQ93Y/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41DmP8Zw3aL._SL160_.jpg",
                        name : "Levi's Men's 514 Straight Fit Jeans "
-                },{ 
-       url : "https://www.amazon.com/dp/B00HMBYZHO/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41DTLFI1PsL._SL160_.jpg",
-       name : "High Quality Printed Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00NAYAPGW/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51IsA%2Bq99lL._SL160_.jpg",
-       name : "SlickBlue SEXY Womens Girls Faux Leather High Waisted Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B015H78KH0/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51FZ17ikqZL._SL160_.jpg",
-       name : "Jescakoo Digital Print Mermaid Fish Scale Stretch Leggings Pant for Women S-3XL "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MXAT7RM/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41l-XX0AarL._SL160_.jpg",
-       name : "HDE Women's Funky Digital Print Design Graphic Stretch Footless Fashion Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B0123M6V14/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41HqeGGSLkL._SL160_.jpg",
-       name : "Carnival Women's Full-Length Printed Soft Microfiber Legging "
-},
-{ 
-       url : "https://www.amazon.com/dp/B010AQNX1G/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41qWj3VchAL._SL160_.jpg",
-       name : "Idingding Womens Hot Sale Galaxy Star Printed High Waist Leggings Pants "
-},
-{ 
-       url : "https://www.amazon.com/dp/B014TNBVC4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51boaygAVqL._SL160_.jpg",
-       name : "Enimay Women's Colored Jean Look Jeggings Tights Spandex Leggings Yoga Pants "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIY3XE/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41NZVnPFBoL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print Black White Skeleton Spandex Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIYJZG/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41GgaHJYKkL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print Blue Stars Spandex Strenchy Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIVZZI/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41fNO-JXpIL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print American US Flag Spandex Strenchy Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00RNDAFRA/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/419weXTDvYL._SL160_.jpg",
-       name : "HDE Women's Shiny Liquid Metallic Fish Scale High Waist Mermaid Stretch Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00JVVLJUE/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41xoSfEXsKL._SL160_.jpg",
-       name : "American Flag Leggings "
-},
-
-{ 
-       url : "https://www.amazon.com/dp/B00ONW5X1M/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/31dLbK4OfcL._SL160_.jpg",
-       name : "Ensasa Black Red Poker Digital Print Fashion Spandex Strechy Legging "
-},
-{ 
-       url : "https://www.amazon.com/dp/B017XBIJ60/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/31s0%2BJY5nNL._SL160_.jpg",
-       name : "Womens Sexy Basic Hight Waist Denim Print Jean Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01E0SUB10/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41I70AftYGL._SL160_.jpg",
-       name : "JOYHY Women's Stretchy Digital 3D Printed Plus Size Leggings Footless Tights "
-},
-{ 
-       url : "https://www.amazon.com/dp/B019SMWRFG/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41jkipp99xL._SL160_.jpg",
-       name : "AutumnFallÂ® Performance Activewear - Printed Yoga Capri Work-out Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00TK6HSNM/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41hFRVP2CVL._SL160_.jpg",
-       name : "ZANZEA Women's Sexy Off Shoulder Chiffon Boho Ruffle Sleeve Blouse Mini Dress "
-},
-
-{ 
-       url : "https://www.amazon.com/dp/B014OUXQI4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41pE5K5pVgL._SL160_.jpg",
-       name : "LaSuiveur Womens Long Sleeves Crewneck Bodycon Bandage Midi Evening Dresses "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01548AJQC/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/31lSSOq0G%2BL._SL160_.jpg",
-       name : "Pink Queen® Womens Turtleneck Long Sleeve Mid Length Bodycon Bandage Dress "
-},
-{ 
-       url : "https://www.amazon.com/dp/B014PKLH2A/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41ffgdnPPkL._SL160_.jpg",
-       name : "Allegrace Women Sexy Long Sleeve Autumn Warm Stretch Bodycon Party Bandage Dresses "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01DGENX8W/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41Nt2aEDt6L._SL160_.jpg",
-       name : "YMING Women Zip-Front Bodycon Sleeveless Party Club Evening Plus Size Dress "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01D161NUA/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41QMBUeE7RL._SL160_.jpg",
-       name : "ANGVNS Women V Neck Sleeveless Knee Length Party Pleated Dress "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00HFMS4Q8/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41H0HrlPYnL._SL160_.jpg",
-       name : "OFTEN® Women Lady Keyhole with Metal Buckle Bodycon Pencil Party Dress "
-},
+                },
                 { 
                        url : "https://www.amazon.com/dp/B00MN6LLKM/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/414EcUhxO6L._SL160_.jpg",
@@ -435,151 +318,6 @@
             
             //Romantic 
             [
-             { 
-       url : "https://www.amazon.com/dp/B01L8RTRZC/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/513ko6wuUUL._SL160_.jpg",
-       name : "Lymanchi Women Halloween Witches Off Shoulder Pullover Slouchy Shirt Sweatshirts "
-},
-{ 
-       url : "https://www.amazon.com/dp/B013KVV1NA/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41ybvEqwaHL._SL160_.jpg",
-       name : "TL Women's Solid Warm Thin Thermal Knitted Casual Zip-Up Hoodie Jacket "
-},
-{ 
-       url : "https://www.amazon.com/dp/B008OPI4U6/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41qEyS6v6FL._SL160_.jpg",
-       name : "Alternative Women's Slouchy Pullover Sweatshirt "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01A9SEWLK/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41xL14wkb4L._SL160_.jpg",
-       name : "ELFIN Women's Oversized Sexy Lips Print Off Shoulder Pullovers "
-},
-{ 
-       url : "https://www.amazon.com/dp/B018LPHA58/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/516DODrXGxL._SL160_.jpg",
-       name : "Eshion Women's Casual Reindeer Fawn Hooded Fleece Sweater Sweatshirt Jacket "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00FLKSGAU/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51kRpgG3UtL._SL160_.jpg",
-       name : "Weatherproof womens Courtney Burnout Hooded Pullover Blend Fleece (W1162) "
-},
-{ 
-       url : "https://www.amazon.com/dp/B0055I0IWM/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51xTQQhGD0L._SL160_.jpg",
-       name : "El Paso Designs Unisex Classic Mexican Baja Pullover Hoodie "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01LL29H6S/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51goL22cLdL._SL160_.jpg",
-       name : "Pullover Sweatshirt, Misaky New Womens Loose Casual Long Sleeve Long Tops Shirt "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00N3Y3RO6/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41o0tAG8-YL._SL160_.jpg",
-       name : "Pink Breast Cancer Awareness Spread The Hope Hoodie "
-},
-{ 
-       url : "https://www.amazon.com/dp/B017LRETCO/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51X2CrgPRZL._SL160_.jpg",
-       name : "VESSOS Women's Long Sleeve Crewneck Pocket Fleece Tunic Sweatshirt & Hoodie "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01AVUFTQS/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51zn%2BpH3RGL._SL160_.jpg",
-       name : "CUPSHE FASHION Women's Long Sleeve Shawl Collar Hooded Sweartshirt, Grey "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01LQ1B1JK/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51bzVDK3IEL._SL160_.jpg",
-       name : "Ybenlow Women's Long Sleeve Chic Seashells Slouchy Pullover Sweatshirt Tops "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01LDRHAWE/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41TBQMyoXZL._SL160_.jpg",
-       name : "MPG Women's Julianne Hough Collection Mynx Yoga Wrap "
-},
-
-{ 
-       url : "https://www.amazon.com/dp/B013W2NKCW/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/516ykfn-59L._SL160_.jpg",
-       name : "Bluetime Womens Fall Winter Long Sleeve Floral Print Pullover Hoodie Sweatshirt "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01HEDQQW6/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51XnDGMux3L._SL160_.jpg",
-       name : "Blouse Clearance Sale! Canserin women Half Sleeve Off shoulder Casual Shirt "
-},
-{ 
-       url : "https://www.amazon.com/dp/B0189FVKW4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41LivFOHgdL._SL160_.jpg",
-       name : "Doinshop Women's Long Sleeve Round Neck Tops Checked Loose Shirt Blouse Warm Tee "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01984NKL4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41iO2UbBVdL._SL160_.jpg",
-       name : "Zeagoo Women Double Split Top Hooded Irregular Long Loose Side Slit Hoodie "
-},
-{ 
-       url : "https://www.amazon.com/dp/B018KLOE8Y/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/418JbQDPAQL._SL160_.jpg",
-       name : "Sorrica Cartoon Anime Totoro Casual Hoody Sweatshirt for Teens "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00KIH3ODK/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41CY-U3L%2BAL._SL160_.jpg",
-       name : "PattyBoutik Women's Collar Pockets Casual Zip Jacket "
-},{ 
-       url : "https://www.amazon.com/dp/B00HMBYZHO/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41DTLFI1PsL._SL160_.jpg",
-       name : "High Quality Printed Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00NAYAPGW/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51IsA%2Bq99lL._SL160_.jpg",
-       name : "SlickBlue SEXY Womens Girls Faux Leather High Waisted Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B015H78KH0/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51FZ17ikqZL._SL160_.jpg",
-       name : "Jescakoo Digital Print Mermaid Fish Scale Stretch Leggings Pant for Women S-3XL "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MXAT7RM/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41l-XX0AarL._SL160_.jpg",
-       name : "HDE Women's Funky Digital Print Design Graphic Stretch Footless Fashion Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B0123M6V14/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41HqeGGSLkL._SL160_.jpg",
-       name : "Carnival Women's Full-Length Printed Soft Microfiber Legging "
-},
-{ 
-       url : "https://www.amazon.com/dp/B010AQNX1G/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41qWj3VchAL._SL160_.jpg",
-       name : "Idingding Womens Hot Sale Galaxy Star Printed High Waist Leggings Pants "
-},
-{ 
-       url : "https://www.amazon.com/dp/B014TNBVC4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51boaygAVqL._SL160_.jpg",
-       name : "Enimay Women's Colored Jean Look Jeggings Tights Spandex Leggings Yoga Pants "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIY3XE/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41NZVnPFBoL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print Black White Skeleton Spandex Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIYJZG/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41GgaHJYKkL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print Blue Stars Spandex Strenchy Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIVZZI/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41fNO-JXpIL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print American US Flag Spandex Strenchy Leggings "
-},
                 { 
                        url : "https://www.amazon.com/dp/B01CQL5L7M/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41utKUhKKLL._SL160_.jpg",
@@ -620,123 +358,6 @@
                        image : "http://ecx.images-amazon.com/images/I/41ItExXRxjL._SL160_.jpg",
                        name : "Men's Black Tuxedo Jacket with Tails Tailcoat "
                 },
-{ 
-       url : "https://www.amazon.com/dp/B00HMBYZHO/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41DTLFI1PsL._SL160_.jpg",
-       name : "High Quality Printed Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00NAYAPGW/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51IsA%2Bq99lL._SL160_.jpg",
-       name : "SlickBlue SEXY Womens Girls Faux Leather High Waisted Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B015H78KH0/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51FZ17ikqZL._SL160_.jpg",
-       name : "Jescakoo Digital Print Mermaid Fish Scale Stretch Leggings Pant for Women S-3XL "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MXAT7RM/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41l-XX0AarL._SL160_.jpg",
-       name : "HDE Women's Funky Digital Print Design Graphic Stretch Footless Fashion Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B0123M6V14/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41HqeGGSLkL._SL160_.jpg",
-       name : "Carnival Women's Full-Length Printed Soft Microfiber Legging "
-},
-{ 
-       url : "https://www.amazon.com/dp/B010AQNX1G/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41qWj3VchAL._SL160_.jpg",
-       name : "Idingding Womens Hot Sale Galaxy Star Printed High Waist Leggings Pants "
-},
-{ 
-       url : "https://www.amazon.com/dp/B014TNBVC4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/51boaygAVqL._SL160_.jpg",
-       name : "Enimay Women's Colored Jean Look Jeggings Tights Spandex Leggings Yoga Pants "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIY3XE/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41NZVnPFBoL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print Black White Skeleton Spandex Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIYJZG/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41GgaHJYKkL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print Blue Stars Spandex Strenchy Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00MQIVZZI/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41fNO-JXpIL._SL160_.jpg",
-       name : "Ensasa Women'S Fashion Digital Print American US Flag Spandex Strenchy Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00RNDAFRA/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/419weXTDvYL._SL160_.jpg",
-       name : "HDE Women's Shiny Liquid Metallic Fish Scale High Waist Mermaid Stretch Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00JVVLJUE/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41xoSfEXsKL._SL160_.jpg",
-       name : "American Flag Leggings "
-},
-
-{ 
-       url : "https://www.amazon.com/dp/B00ONW5X1M/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/31dLbK4OfcL._SL160_.jpg",
-       name : "Ensasa Black Red Poker Digital Print Fashion Spandex Strechy Legging "
-},
-{ 
-       url : "https://www.amazon.com/dp/B017XBIJ60/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/31s0%2BJY5nNL._SL160_.jpg",
-       name : "Womens Sexy Basic Hight Waist Denim Print Jean Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01E0SUB10/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41I70AftYGL._SL160_.jpg",
-       name : "JOYHY Women's Stretchy Digital 3D Printed Plus Size Leggings Footless Tights "
-},
-{ 
-       url : "https://www.amazon.com/dp/B019SMWRFG/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41jkipp99xL._SL160_.jpg",
-       name : "AutumnFallÂ® Performance Activewear - Printed Yoga Capri Work-out Leggings "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00TK6HSNM/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41hFRVP2CVL._SL160_.jpg",
-       name : "ZANZEA Women's Sexy Off Shoulder Chiffon Boho Ruffle Sleeve Blouse Mini Dress "
-},
-
-{ 
-       url : "https://www.amazon.com/dp/B014OUXQI4/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41pE5K5pVgL._SL160_.jpg",
-       name : "LaSuiveur Womens Long Sleeves Crewneck Bodycon Bandage Midi Evening Dresses "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01548AJQC/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/31lSSOq0G%2BL._SL160_.jpg",
-       name : "Pink Queen® Womens Turtleneck Long Sleeve Mid Length Bodycon Bandage Dress "
-},
-{ 
-       url : "https://www.amazon.com/dp/B014PKLH2A/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41ffgdnPPkL._SL160_.jpg",
-       name : "Allegrace Women Sexy Long Sleeve Autumn Warm Stretch Bodycon Party Bandage Dresses "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01DGENX8W/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41Nt2aEDt6L._SL160_.jpg",
-       name : "YMING Women Zip-Front Bodycon Sleeveless Party Club Evening Plus Size Dress "
-},
-{ 
-       url : "https://www.amazon.com/dp/B01D161NUA/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41QMBUeE7RL._SL160_.jpg",
-       name : "ANGVNS Women V Neck Sleeveless Knee Length Party Pleated Dress "
-},
-{ 
-       url : "https://www.amazon.com/dp/B00HFMS4Q8/?tag=playquizzy-20",
-       image : "http://ecx.images-amazon.com/images/I/41H0HrlPYnL._SL160_.jpg",
-       name : "OFTEN® Women Lady Keyhole with Metal Buckle Bodycon Pencil Party Dress "
-},
                 { 
                        url : "https://www.amazon.com/dp/B01CO94XV6/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41AD2--xBrL._SL160_.jpg",
@@ -1006,7 +627,6 @@
                        image : "http://ecx.images-amazon.com/images/I/513ib5SCpKL._SL160_.jpg",
                        name : "localmode Men's 100% Cotton Long Sleeve Plaid Slim Fit Button Down Dress Shirt "
                 },
-
                 { 
                        url : "https://www.amazon.com/dp/B00I39SDYA/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/51chbUBvYfL._SL160_.jpg",
@@ -1331,7 +951,6 @@
                        image : "http://ecx.images-amazon.com/images/I/416f8iwbDKL._SL160_.jpg",
                        name : "Levi's Men's 550 Short "
                 },
-
                 { 
                        url : "https://www.amazon.com/dp/B00MB5Q434/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/412FXfoD-WL._SL160_.jpg",
@@ -1771,7 +1390,6 @@
                        image : "http://ecx.images-amazon.com/images/I/41JDDmoLESL._SL160_.jpg",
                        name : "Salvatore Exte Men's Notch Lapel Casual Vest Modern Fit Dress Suit Waistcoat "
                 },
-
                 { 
                        url : "https://www.amazon.com/dp/B00F3SJQ72/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/41a6Zry91bL._SL160_.jpg",
