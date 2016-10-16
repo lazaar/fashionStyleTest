@@ -28,7 +28,7 @@
       <div  >
         <h4 ng-click="result.goToAmazon(products.url)">{{products.name}}</h4>
         <p>
-        <a href="{{products.url}}" class="btn btn-success " target="_blank"><i class="Quiz-icon icon-shopping"></i> Buy now</a>
+        <div><a ng-click="result.goToAmazon(products.url)" class="btn btn-success " target="_blank"><i class="Quiz-icon icon-shopping"></i> Buy now</a></div>
         <button type="button" class="btn btn-md btn-default" ng-click="result.inviteFriends(products.url)">Share with Friends</button>
         </p>
       </div>

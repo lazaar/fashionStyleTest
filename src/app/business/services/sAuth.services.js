@@ -25,7 +25,7 @@
               getUserInfo();
             }
             else {
-                console.log("Not connected");
+                //console.log("Not connected");
             }
 
           });
@@ -41,10 +41,9 @@
 
           var _self = this;
 
-          FB.api('/me', {fields: 'name, email, birthday, picture, gender'}, function(res) {
+          FB.api('/me', {fields: 'name, email, birthday, picture, gender, first_name'}, function(res) {
             $rootScope.$apply(function() {
               $rootScope.user = res;
-              console.log($rootScope.user);
             });
           });
 

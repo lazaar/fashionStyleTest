@@ -26,11 +26,12 @@
       pagesShown = pagesShown + 1;       
     }; 
 
-    function inviteFriends(){
-      facebookServices.sendToFriend("http://facebook.com");
+    function inviteFriends(url){
+      facebookServices.sendToFriend(url);
     }
 
     function goToAmazon(url){
+      $window.ga('send', 'event', 'fashionQuiz', 'Amazon Product', url);
       $window.open(url, '_blank');
 
     }
@@ -53,14 +54,15 @@
     }
 
     function init(){
+      $window.ga('send', 'pageview', 'product');
       var id = parseInt($stateParams.id);
-        vm.products=_.shuffle(productsData[_.result($rootScope,'user.gender','male')][id]);
-        vm.name = resultsData[_.result($rootScope,'user.gender','male')][id].name;
-        vm.inviteFriends = inviteFriends;
-        vm.goToAmazon = goToAmazon;
-        vm.subscribe=subscribe;
-        vm.email = _.result($rootScope,'user.email',undefined);
-        vm.restart =restart;
+      vm.products=_.shuffle(productsData[_.result($rootScope,'user.gender','male')][id]);
+      vm.name = resultsData[_.result($rootScope,'user.gender','male')][id].name;
+      vm.inviteFriends = inviteFriends;
+      vm.goToAmazon = goToAmazon;
+      vm.subscribe=subscribe;
+      vm.email = _.result($rootScope,'user.email',undefined);
+      vm.restart =restart;
     }
     init();
 

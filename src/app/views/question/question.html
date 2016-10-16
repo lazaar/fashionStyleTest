@@ -9,12 +9,13 @@
 
 
   <div class="row responses"  >
-      <div  ng-class="{'col-sm-4 col-xs-6' : question.isImage==true , 'col-xs-12 response-item' : question.isImage==false , 'pading-img' : question.isImage==true}"  ng-repeat="(index,response) in question.responses" >
+      <div  ng-class="{'col-sm-4 col-xs-6 pading-img' : question.isImage==true , 'col-xs-12 response-item' : question.isImage==false}"  ng-repeat="(index,response) in question.responses" >
         <p  ng-if="!question.isImage" ng-class="{'active': index == question.activeResponse}" ng-click="question.goToNext(index)">{{response.value}}</p>
         <div ng-if="question.isImage" class="border-response-img" ng-click="question.goToNext(index)">
       <img  ng-src="{{response.value}}" >
       <p class="response-text" >{{response.text}}</p>
       </div>
+      <div class="clearfix visible-xs-block"></div>
       </div>
     </div>
 

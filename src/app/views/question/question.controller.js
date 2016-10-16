@@ -6,7 +6,7 @@
     .controller('QuestionController', QuestionController);
 
   /** @ngInject */
-  function QuestionController($stateParams, $state, questionsData, responses, $rootScope) {
+  function QuestionController($stateParams,$window, $state, questionsData, responses, $rootScope) {
     var vm = this;
     function goToNext(response){
         if(responses.addResponse(vm.id, response)){
@@ -32,6 +32,9 @@
 
     function init(){
       vm.id = parseInt($stateParams.id);
+      if(vm.id ===0){
+        $window.ga('send', 'pageview', 'question/0');
+      }
       if(vm.id === 0 && !_.result($rootScope,'user.gender',undefined)){
         vm.chooseGender = true;
         vm.selectGender = selectGender;

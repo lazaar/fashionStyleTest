@@ -4,9 +4,9 @@
     angular.module('playquizzy').constant('configConstantes', {
     
 
-        siteUrlBase :  'https://playquizzy.com/fashionStyle',
-        facebookUrlApp : 'http://localhost:3000',
-        BOurl : 'https://playquizzy.com/fashionStyle/back/actions.php',
+        siteUrlBase :  'https://playquizzy.com/fashion',
+        facebookUrlApp : 'https://playquizzy.com/fashionStyle',
+        BOurl : 'https://playquizzy.com/fashion/back/actions.php',
 
         methods:{
             newsletter : 'newsletter',

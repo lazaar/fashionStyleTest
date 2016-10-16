@@ -1133,11 +1133,6 @@
                        name : "Columbia Men's Steens Mountain Half Zip Pullover Fleece "
                 },
                 { 
-                       url : "https://www.amazon.com/dp/B018UYWE6K/?tag=playquizzy-20",
-                       image : "http://ecx.images-amazon.com/images/I/41AY0llRFDL._SL160_.jpg",
-                       name : "Gioberti Mens Sherpa Lined Pull Zip Fleece Hoodie Jacket "
-                },
-                { 
                        url : "https://www.amazon.com/dp/B00HG7HKVM/?tag=playquizzy-20",
                        image : "http://ecx.images-amazon.com/images/I/412S1gM1p6L._SL160_.jpg",
                        name : "Tom's Ware Mens Stylish Fashion Classic Wool Double Breasted Pea Coat "

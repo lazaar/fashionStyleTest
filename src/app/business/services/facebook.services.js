@@ -9,7 +9,7 @@
      */
     angular.module('playquizzy').factory('facebookServices', facebookServices);
 
-    function facebookServices(configConstantes) {
+    function facebookServices(configConstantes, $window) {
 
 
 
@@ -18,6 +18,7 @@
         // ############################################# //
 
         function shareFacebook(link, name, caption, description, image) {
+          $window.ga('send', 'event', 'fashionQuiz', 'Share Facebook', link);
           FB.ui(
           {
             method: 'feed',
@@ -38,6 +39,7 @@
         }
 
         function sendToFriend(link){
+          $window.ga('send', 'event', 'fashionQuiz', 'Send to Friend', link);
           FB.ui({method: 'send',
             link:link
           });

@@ -31,9 +31,10 @@ p.description{
 	margin-bottom: 10px;
 }
 .myImage{
-	max-width: 80%;
+	max-width: 70%;
 	&.result-image{
 		margin-top:30px;
+		margin-bottom:30px;
 	}
 }
 .error-wrapper{
@@ -45,6 +46,10 @@ p.description{
 		border-top-color: red;
 		border-right-color: red;
 	}
+}
+.response-text {
+    height: 80px;
+    overflow: hidden;
 }
 .loader-email{
 	.loader{
@@ -58,7 +63,7 @@ p.description{
 }
 .border-response-img{
 	border: 1px solid #000000;
-
+	cursor: pointer;
 }
 .pading-img{
 padding-top: 10px;
@@ -197,6 +202,9 @@ small{
 		cursor: pointer;
 	}
 }
+.jumbotron p{
+	font-size:20px;
+}
 
 @media (max-width: 767px)  and  (min-width: 487px) { 
 .productImage{
@@ -225,5 +233,13 @@ small{
 		img{
 			max-width: 100%;
 		}
+	}
+}
+@media screen and (min-width: 768px){
+	.jumbotron .h1, .jumbotron h1 {
+	    font-size: 55px;
+	}
+	.container .jumbotron{
+		padding:0 20px;
 	}
 }

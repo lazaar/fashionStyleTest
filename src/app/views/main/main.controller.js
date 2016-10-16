@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, toastr, $state, $rootScope, facebookServices, configConstantes, responses) {
+  function MainController($timeout, toastr, $state, $rootScope, facebookServices, configConstantes,$window, responses) {
     var vm = this;
 
     function activateAnimation() {
@@ -22,6 +22,7 @@
         $state.go("question", {id:0});
       }
       else{
+        $window.ga('send', 'event', 'fashionQuiz', 'Facebook Register');
         FB.login(function(response) {
             if (response.authResponse) {
               $state.go("question", {id:0});
@@ -45,6 +46,7 @@
       vm.startQuiz = startQuiz;
       vm.share = share;
       vm.inviteFriends = inviteFriends;
+      $window.ga('send', 'pageview', 'fashionQuiz/main');
     }
     init();
 

@@ -6,7 +6,7 @@
     .controller('ResultController', ResultController);
 
   /** @ngInject */
-  function ResultController(responses, facebookServices,$sce, actionServices, $rootScope,  $timeout, questionsData, resultsData, $state,productsData, configConstantes) {
+  function ResultController(responses,$window, facebookServices,$sce, actionServices, $rootScope,  $timeout, questionsData, resultsData, $state,productsData, configConstantes) {
     var vm = this;
     var responseFlags;
     var results;
@@ -34,11 +34,10 @@
 
     vm.more=function(){
         $state.go('product', {id: userResultIndex});
-
     }
 
     function share(){
-      facebookServices.shareFacebook(configConstantes.facebookUrlApp, results[userResultIndex].facebookName.replace('{{userName}}', $rootScope.user.name), configConstantes.share.result.caption, results[userResultIndex].facebookDescription.replace('{{userName}}', $rootScope.user.name), '/'+ vm.image );
+      facebookServices.shareFacebook(configConstantes.facebookUrlApp, results[userResultIndex].facebookName.replace('{{userName}}', $rootScope.user.first_name), configConstantes.share.result.caption, results[userResultIndex].facebookDescription.replace('{{userName}}', $rootScope.user.first_name), '/'+ vm.image );
     }
     function inviteFriends(url){
       facebookServices.sendToFriend(url || configConstantes.facebookUrlApp);
@@ -48,6 +47,7 @@
       $state.go('home');
     }
     function goToAmazon(url){
+      $window.ga('send', 'event', 'fashionQuiz', 'Amazon Result', url);
       $window.open(url, '_blank');
 
     }
@@ -70,6 +70,7 @@
         $state.go('home');
       }
       else{
+        $window.ga('send', 'pageview', 'result');
         results = resultsData[$rootScope.user.gender];
         vm.email = _.result($rootScope,'user.email',undefined);
         responseFlags = new Array(results.length);
