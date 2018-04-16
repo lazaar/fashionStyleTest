@@ -2,9 +2,15 @@
 <html ng-app="playquizzy">
   <head>
     <meta charset="utf-8">
-    <title>Play Quizzy</title>
-    <meta name="description" content="">
+    <title>Play Quizzy - Clothing Personality</title>
+    <meta name="description" content="Discover your Clothing Personality to be always comfortable and confident in how you appear">
     <meta name="viewport" content="width=device-width">
+
+    <meta property="fb:app_id" content="1588207604818429"/>
+    <meta property="og:url" content="https://playquizzy.com/fashion/"/>
+    <meta property="og:title" content="Clothing Personality Quiz"/>
+    <meta property="og:image" content="https://playquizzy.com/facebook.png"/>
+    <meta name="og:description" content="Discover your Clothing Personality to be always comfortable and confident in how you appear">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="icon" href="favicon.ico" />
 
@@ -24,8 +30,11 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-    <div ui-view></div>
+    <div class="banner">
+      <a href="http://playquizzy.com"><img src="logo.png"></a>
+      <a href="https://www.facebook.com/playquizzy/" class="facebook"></a>
+    </div>
+    <div ui-view class="bodyView"></div>
 
     <div id="fb-root"></div>
     <!-- build:js(src) scripts/vendor.js -->
